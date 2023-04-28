@@ -1,0 +1,19 @@
+Google scholar search: "computer vision", "computational efficiency/efficient"
+
+link: https://escholarship.org/uc/item/8w9996x7
+year: 2012
+summary: "Computer vision algorithms require increasing computational resources due to the growth in dataset size and computational demands, which is outpacing Moore's law scaling. Although parallelism has become the primary driver of hardware performance improvements, many vision experts have neglected to parallelize computer vision applications, prioritizing productivity instead."
+
+link: https://ieeexplore.ieee.org/abstract/document/9328441
+year: 2021 
+summary: "The study proposes a new network called REF-Net for autonomous driving applications on mobile devices, which combines carefully designed encoding and decoding paths to achieve both accuracy and computational efficiency. The current popular deep learning models for self-driving cars have high accuracy but are time-consuming and computationally inefficient, while networks with efficient architectures often lack accuracy."
+
+
+Google scholar search: "distillation", "unsupervised/self-supervised learning"
+
+
+
+
+
+
+
