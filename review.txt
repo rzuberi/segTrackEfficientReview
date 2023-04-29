@@ -1,4 +1,4 @@
-Google scholar search: "computer vision", "computational efficiency/efficient"
+Searching for the keywords: distillation, unsupervised/self-supervised, cell, tracking, segmentation
 
 link: https://escholarship.org/uc/item/8w9996x7
 year: 2012
@@ -8,9 +8,13 @@ link: https://ieeexplore.ieee.org/abstract/document/9328441
 year: 2021 
 summary: "The study proposes a new network called REF-Net for autonomous driving applications on mobile devices, which combines carefully designed encoding and decoding paths to achieve both accuracy and computational efficiency. The current popular deep learning models for self-driving cars have high accuracy but are time-consuming and computationally inefficient, while networks with efficient architectures often lack accuracy."
 
+link: https://arxiv.org/pdf/2101.07308.pdf
+year: 2021
+summary: "The article proposes a progressive knowledge distillation approach for unsupervised single-target and multi-target domain adaptation of CNNs, aiming to overcome the domain shift problem and computational requirements. This approach simultaneously adapts and compresses CNNs to generalize well across multiple target domains."
 
-Google scholar search: "distillation", "unsupervised/self-supervised learning"
-
+link: https://openaccess.thecvf.com/content_ECCV_2018/html/SEUNG_HYUN_LEE_Self-supervised_Knowledge_Distillation_ECCV_2018_paper.html
+year: 2018
+summary: "A new method to improve the knowledge transfer from a teacher deep neural network (T-DNN) to a student deep neural network (S-DNN) is proposed using singular value decomposition (SVD) and a self-supervised task to continuously receive information from the T-DNN. Simulation results showed that the S-DNN using this method had a better classification accuracy than the T-DNN and outperformed state-of-the-art distillation with a performance advantage of 1.79% at the same computational cost."
 
 
 
