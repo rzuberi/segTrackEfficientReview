@@ -4,39 +4,49 @@ Write the goal of our paper: computationally efficient instance segmentation and
 Now write for each paper the possible relevancy they have with our title. This will show how we combine these ideas.
 Also write which ideas from our own goal they are missing.
 Could also add the title of these papers in this review to help with reading.
+Organise links by theme
 
+title: Making Computer Vision Computationally Efficient
 link: https://escholarship.org/uc/item/8w9996x7
 year: 2012
 summary: "Computer vision algorithms require increasing computational resources due to the growth in dataset size and computational demands, which is outpacing Moore's law scaling. Although parallelism has become the primary driver of hardware performance improvements, many vision experts have neglected to parallelize computer vision applications, prioritizing productivity instead."
 
+title: REF-Net: Robust, Efficient, and Fast Network for Semantic Segmentation Applications Using Devices With Limited Computational Resources
 link: https://ieeexplore.ieee.org/abstract/document/9328441
 year: 2021 
 summary: "The study proposes a new network called REF-Net for autonomous driving applications on mobile devices, which combines carefully designed encoding and decoding paths to achieve both accuracy and computational efficiency. The current popular deep learning models for self-driving cars have high accuracy but are time-consuming and computationally inefficient, while networks with efficient architectures often lack accuracy."
 
+title: Knowledge Distillation Methods for Efficient Unsupervised Adaptation Across Multiple Domains
 link: https://arxiv.org/pdf/2101.07308.pdf
 year: 2021
 summary: "The article proposes a progressive knowledge distillation approach for unsupervised single-target and multi-target domain adaptation of CNNs, aiming to overcome the domain shift problem and computational requirements. This approach simultaneously adapts and compresses CNNs to generalize well across multiple target domains."
 
+title: Self-supervised Knowledge Distillation Using Singular Value Decomposition
 link: https://openaccess.thecvf.com/content_ECCV_2018/html/SEUNG_HYUN_LEE_Self-supervised_Knowledge_Distillation_ECCV_2018_paper.html
 year: 2018
 summary: "A new method to improve the knowledge transfer from a teacher deep neural network (T-DNN) to a student deep neural network (S-DNN) is proposed using singular value decomposition (SVD) and a self-supervised task to continuously receive information from the T-DNN. Simulation results showed that the S-DNN using this method had a better classification accuracy than the T-DNN and outperformed state-of-the-art distillation with a performance advantage of 1.79% at the same computational cost."
 
+title: OrganoidTracker: Efficient cell tracking using machine learning and manual error correction
 link: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0240802
 year: 2020
 summary: "A semi-automated cell tracker has been developed for time-lapse microscopy of organoids, which uses a machine learning approach based on a convolutional neural network to detect nuclei and links detections at different time points together using a min-cost flow solver to form cell trajectories. The tracker raises warnings for situations with likely errors, and when the warning system is adjusted, less than 2% of all detected nuclei positions are marked for manual analysis, providing a significant speed boost over manual tracking while maintaining tracking data quality."
 
+title: A deep learning model for detection and tracking in high-throughput images of organoid
 link: https://www.sciencedirect.com/science/article/pii/S0010482521002845#fig6
 year: 2021
 summary: "The paper presents a novel deep neural network for 3D organoid detection and tracking, distilling Res-Net, which is the first exploration of applying deep learning to organoid tracking tasks. The proposed method achieved satisfactory results on organoid detection and tracking using a high-throughput organoid image dataset, demonstrating the potential of deep learning technology in this field."
 
+title: Deep Semi-supervised Knowledge Distillation for Overlapping Cervical Cell Instance Segmentation
 link: https://link.springer.com/chapter/10.1007/978-3-030-59710-8_51
 year: 2020
 summary: "The paper proposes a Mask-guided Mean Teacher framework with Perturbation-sensitive Sample Mining (MMT-PSM) for instance segmentation of cervical cells using both labeled and unlabeled data for improved accuracy by knowledge distillation. The proposed method outperforms state-of-the-art semi-supervised methods and improves performance significantly compared to supervised methods learned from labeled data only."
 
+title: Lightweight convolutional neural network with knowledge distillation for cervical cells classification
 link: https://www.sciencedirect.com/science/article/pii/S1746809421007746
 year: 2021
 summary: "This paper discusses the lack of medical resources in developing countries for cervical cancer detection and proposes a solution through the development of a lightweight convolutional neural network (CNN) model with minimal parameters and calculations using knowledge distillation. The proposed method is shown to improve the accuracy of cervical cells classification tasks and has potential for use in a more economical and effective computer-aided system for the diagnosis and prevention of cervical cancer."
 
+title: FasterSeg: Searching for Faster Real-time Semantic Segmentation
 link: https://arxiv.org/abs/1912.10917
 year: 2019
 summary: "FasterSeg is an automatic semantic segmentation network with state-of-the-art performance and faster speed than existing methods. It uses neural architecture search (NAS) to discover a model from a novel and broader search space with multi-resolution branches, and proposes a decoupled and fine-grained latency regularization to balance accuracy and latency goals. Additionally, FasterSeg can be extended to a collaborative search (co-searching) framework to simultaneously search for a teacher and a student network, with teacher-student distillation further boosting the student model's accuracy."
